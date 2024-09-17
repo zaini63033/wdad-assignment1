@@ -32,3 +32,25 @@ nav ul li {
 .left {
     font-size: 2.5rem;
 }
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+.sorting-video{
+    width: 80;
+    height: 100;
+    margin-top: 10px;
+
+}
+
+.leftSection{
+    width: 60%;
+}
+
+.rightSection{
+    width: 40%;
+
+}
