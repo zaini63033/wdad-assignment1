@@ -30,11 +30,15 @@ nav ul li {
     margin: 0 25px;
 }
 
-.left {
+.navLeft {
     font-size: 2.5rem;
 }
 
-.firstSection {
+.navRight {
+    margin-left: 10%;
+}
+
+.about {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,14 +47,14 @@ nav ul li {
     margin-bottom: 30px;
 }
 
-.leftSection {
+.aboutLeft {
     width: 55%;
     font-size: 2rem;
     line-height: 1.8;
     font-weight: 300;
 }
 
-.rightSection {
+.aboutRight {
     width: 40%;
     text-align: center;
 }
@@ -67,13 +71,14 @@ nav ul li {
     color: #3c6e71;
 }
 
-.secondSection {
+.education {
     padding: 50px;
     background-color: #f5f5f5;
     color: #353535;
+    margin-bottom: 30px;
 }
 
-.secondSection h1 {
+.education h1 {
     font-size: 3rem;
     color: #2b2d42;
     margin-bottom: 30px;
@@ -81,6 +86,9 @@ nav ul li {
 }
 
 .educationItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     margin-bottom: 20px;
 }
 
@@ -95,4 +103,208 @@ nav ul li {
     line-height: 1.6;
     color: #353535;
     text-align: left;
+}
+
+.educationLeft {
+    width: 70%;
+}
+
+.educationRight {
+    width: 30%;
+    text-align: right;
+}
+
+.educationRight strong {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #2b2d42;
+    margin-bottom: 10px;
+}
+
+.educationRight p {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #353535;
+    margin-left: 80%;
+}
+
+.projects {
+    padding: 50px;
+    background-color: #f5f5f5;
+    color: #353535;
+    margin-bottom: 30px;
+}
+
+.projects h1 {
+    font-size: 3rem;
+    color: #2b2d42;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.projectItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.projectLeft {
+    width: 20%;
+}
+
+.projectLeft h2 {
+    font-size: 1.75rem;
+    color: #2b2d42;
+}
+
+.projectMid {
+    width: 15%;
+    text-align: left;
+    margin-top:10px;
+}
+
+.projectMid p {
+    font-size: 1rem;
+    font-style: italic;
+    color: #353535;
+}
+
+.projectRight {
+    width: 65%;
+    text-align: right;
+}
+
+.projectRight strong {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #2b2d42;
+}
+
+.projectDetails {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.projectDetails li {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #353535;
+}
+
+.experience {
+    padding: 50px;
+    background-color: #f5f5f5;
+    color: #353535;
+    margin-bottom: 30px;
+}
+
+.experience h1 {
+    font-size: 3rem;
+    color: #2b2d42;
+    margin-bottom: 30px;
+    text-align: right;
+    direction: rtl; 
+}
+
+.experienceItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    direction: rtl; 
+}
+
+.experienceLeft {
+    width: 70%;
+}
+
+.experienceRight {
+    width: 30%;
+    text-align: right;
+}
+
+.experienceItem h2, .experienceRight strong {
+    font-size: 1.75rem;
+    color: #2b2d42;
+    font-weight: bold;
+}
+
+.experienceItem p, .experienceRight p {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #353535;
+}
+
+.experienceDetails {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    direction: rtl; 
+}
+
+.experienceDetails li {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #353535;
+}
+
+.skills {
+    padding: 50px;
+    background-color: #f5f5f5;
+    color: #353535;
+}
+
+.skills h1 {
+    font-size: 3rem;
+    color: #2b2d42;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.skillsList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skillsList li {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #353535;
+    margin-bottom: 10px;
+}
+
+.contact-footer {
+    padding: 50px;
+    background-color: #2b2d42;
+    color: white;
+    text-align: center;
+}
+
+.contact-footer h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.contact-sections {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-item {
+    font-size: 1.2rem;
+}
+
+.linkedin {
+    flex-basis: 100%; 
+    margin-right: 3.75%;
+}
+
+.contact-item a {
+    color: #3c6e71;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
 }
